@@ -2,7 +2,7 @@ Name:           perl-Sub-Uplevel
 Summary:        Apparently run a function in a higher stack frame
 Epoch:          1
 Version:        0.24
-Release:        3.1%{?dist}
+Release:        4%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 Source0:        http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-%{version}.tar.gz 
@@ -50,6 +50,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.24-4
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1:0.24-3.1
 - Rebuild for perl 5.16
 
